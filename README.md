@@ -7,7 +7,9 @@ An unofficial PyTorch implementation of the **"Attention Bottlenecks for Multimo
 
 > **본 레포지토리는 멀티모달 병목 트랜스포머(MBT)의 PyTorch 구현체입니다. 비디오와 오디오 데이터를 효율적으로 융합하여 화자의 감정을 인식하며, A100 GPU의 성능을 극대화하기 위한 고속 데이터 전처리 파이프라인이 적용되어 있습니다.**
 
-
+1) **[Notion Blog Review](https://www.notion.so/MBT-NeurIPS-2021-2ee41bbe12988052b2bed32596030b5a)**
+2) **[Tistory Blog Review](https://pak1010pak.tistory.com/131)**
+3) **[Test Review](https://pak1010pak.tistory.com/132)**
 
 ## 📌 Project Highlights
 * **Mid-Fusion with Attention Bottlenecks**: Implemented the core idea of restricting cross-modal interaction through a small number of bottleneck tokens, improving efficiency and performance. (시각/청각 정보가 병목 토큰을 통해서만 교류하도록 강제하여 연산 효율 극대화)
